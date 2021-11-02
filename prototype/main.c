@@ -9,6 +9,7 @@ int main(int argc, char **argv) {
     unsigned int x1, x2;
     void *f1;
     void *f2;
+    void *f3;
     float result;
 
     fp_in = fopen("../fp_samples.hex", "r");
@@ -26,9 +27,10 @@ int main(int argc, char **argv) {
         f1 = &x1;
         f2 = &x2;
         result = *((float *) f1) * *((float *) f2);
+        f3 = &result;
         //ieee 754 conversion
-        fprintf(fp_out,"%.16f\n", result);
-        fprintf(stdout,"0x%x (%.16f) * 0x%x (%.16f)\n", x1, *((float *) f1), x2, *((float *) f2));
+        fprintf(fp_out,"%x\n",(unsigned int) *((int *) f1));
+        fprintf(stdout,"0x%x (%.16f) * 0x%x (%.16f) = %.16f\n", x1, *((float *) f1), x2, *((float *) f2), result);
     } while (!feof(fp_in));
 
     fclose(fp_in);
