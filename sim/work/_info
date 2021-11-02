@@ -1,0 +1,1123 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/monca/Documents/Politecnico/ISA/ISAL2/sim
+Eclk_gen
+Z1 w1635845537
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/tb/clk_gen.vhd
+Z7 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/tb/clk_gen.vhd
+l0
+L6
+VImmj_^ZahKJ^aJ^nS[W>R2
+!s100 SLN;:6OIZ2KZA<CIeaa3o2
+Z8 OV;C;10.5b;63
+32
+Z9 !s110 1635847223
+!i10b 1
+Z10 !s108 1635847223.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/tb/clk_gen.vhd|
+Z12 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/tb/clk_gen.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Abeh
+R2
+R3
+R4
+R5
+DEx4 work 7 clk_gen 0 22 Immj_^ZahKJ^aJ^nS[W>R2
+l17
+L11
+VcFB_d2WJU@YE`NQ6i@hk?1
+!s100 4<962U[n8>EUj;lAkOO9d0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Edata_maker
+Z15 w1635847197
+Z16 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R2
+R3
+R4
+R5
+R0
+Z17 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/tb/data_maker.vhd
+Z18 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/tb/data_maker.vhd
+l0
+L10
+VYRKOV=Q?C8`8AEF0hk<hC3
+!s100 1J]6BW;MQD1fNgL32=HQo1
+R8
+32
+R9
+!i10b 1
+R10
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/tb/data_maker.vhd|
+Z20 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/tb/data_maker.vhd|
+!i113 1
+R13
+R14
+Abeh
+R16
+R2
+R3
+R4
+R5
+DEx4 work 10 data_maker 0 22 YRKOV=Q?C8`8AEF0hk<hC3
+l20
+L16
+V5e@L<IXld3TFRK^T2lEMY1
+!s100 BMCiiR<@IFz@0e<PQO24:2
+R8
+32
+R9
+!i10b 1
+R10
+R19
+R20
+!i113 1
+R13
+R14
+Edata_sink
+Z21 w1635841974
+R16
+R2
+R3
+R4
+R5
+R0
+Z22 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/tb/data_sink.vhd
+Z23 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/tb/data_sink.vhd
+l0
+L10
+VFQ97`nAOb6Mo;?d7Lja^F0
+!s100 OK83IF7523>0@T24UETGC3
+R8
+32
+R9
+!i10b 1
+R10
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/tb/data_sink.vhd|
+Z25 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/tb/data_sink.vhd|
+!i113 1
+R13
+R14
+Abeh
+R16
+R2
+R3
+R4
+R5
+DEx4 work 9 data_sink 0 22 FQ97`nAOb6Mo;?d7Lja^F0
+l20
+L18
+VH0n>GV0NI1?e6fjzCXQ_L1
+!s100 >]Sf_eOZ[U9P0fljITNA[0
+R8
+32
+R9
+!i10b 1
+R10
+R24
+R25
+!i113 1
+R13
+R14
+Efpadd
+Z26 w1635839385
+R3
+R4
+R5
+R0
+Z27 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_pipeline.vhd
+Z28 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_pipeline.vhd
+l0
+L16
+V_IH@NTdR=oomi9Pee4iDi2
+!s100 5Fmlh_cQl<CigL2n5=J[02
+R8
+32
+Z29 !s110 1635847225
+!i10b 1
+Z30 !s108 1635847225.000000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_pipeline.vhd|
+Z32 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_pipeline.vhd|
+!i113 1
+R13
+R14
+Apipeline
+Z33 DEx4 work 12 fpadd_stage6 0 22 JB_G<kShzW0I@Y?;T8dU_0
+Z34 DEx4 work 12 fpadd_stage5 0 22 hZR:5LO5?RQ6@A`8SLPCR1
+Z35 DEx4 work 12 fpadd_stage4 0 22 kFHm8=o^NoA>g:jBFcLe62
+Z36 DEx4 work 12 fpadd_stage3 0 22 7RC1nNH7dnfh3nOBgMd3D3
+Z37 DEx4 work 12 fpadd_stage2 0 22 JhGN2OPO<F^aPgNT6]dEc0
+Z38 DEx4 work 12 fpadd_stage1 0 22 `O]DRFe5gPBRBz:1aA06T0
+DEx4 work 5 fpadd 0 22 _IH@NTdR=oomi9Pee4iDi2
+R3
+R4
+R5
+l247
+L46
+V3Si0>kf]Y<LYg;dCkWCFF2
+!s100 4Ni4[G8CNzTbc7Df>lbVP0
+R8
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R13
+R14
+Efpadd_normalize
+R26
+R3
+R4
+R5
+R0
+Z39 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_normalize_struct.vhd
+Z40 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_normalize_struct.vhd
+l0
+L16
+VZGYUGR@8D3F^k=K`:<XYl3
+!s100 YoT<5kABE_Tko;BoGH:N[1
+R8
+32
+R29
+!i10b 1
+R30
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_normalize_struct.vhd|
+Z42 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_normalize_struct.vhd|
+!i113 1
+R13
+R14
+Astruct
+Z43 DEx4 work 5 fplzc 0 22 nkd3[zn8<k`eEhcD_Ki^c3
+Z44 DEx4 work 15 fpadd_normalize 0 22 ZGYUGR@8D3F^k=K`:<XYl3
+R2
+R3
+R4
+R5
+l81
+L47
+V>=:8b[m_0G4U9[T3:B<LL2
+!s100 7AbLc5o[?U^z2f]V`og^=0
+R8
+32
+R29
+!i10b 1
+R30
+R41
+R42
+!i113 1
+R13
+R14
+Efpadd_stage1
+R26
+R3
+R4
+R5
+R0
+Z45 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_stage1_struct.vhd
+Z46 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_stage1_struct.vhd
+l0
+L16
+V`O]DRFe5gPBRBz:1aA06T0
+!s100 9HKmI]fRoF[S?SOzPXchM1
+R8
+32
+R29
+!i10b 1
+R30
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_stage1_struct.vhd|
+Z48 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_stage1_struct.vhd|
+!i113 1
+R13
+R14
+Astruct
+Z49 DEx4 work 8 unpackfp 0 22 37[Dg7h=I0ajFd?7fl2Kd2
+R38
+R3
+R4
+R5
+l108
+L60
+VB<FT3;_COa:C^`giTIni<3
+!s100 B7>@H^ULZ1^`YoXiK6:Wg1
+R8
+32
+R29
+!i10b 1
+R30
+R47
+R48
+!i113 1
+R13
+R14
+Efpadd_stage2
+R26
+R3
+R4
+R5
+R0
+Z50 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_stage2_struct.vhd
+Z51 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_stage2_struct.vhd
+l0
+L16
+VJhGN2OPO<F^aPgNT6]dEc0
+!s100 QDE3P@`FGB<nbl=Bg`K_Y3
+R8
+32
+R29
+!i10b 1
+R30
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_stage2_struct.vhd|
+Z53 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_stage2_struct.vhd|
+!i113 1
+R13
+R14
+Astruct
+Z54 DEx4 work 6 fpswap 0 22 GJC@XXL4ajOO`YP@G;b]g3
+Z55 DEx4 work 7 fpalign 0 22 j<c@]dFg6jEJzjJEUoCV@0
+R37
+R3
+R4
+R5
+l129
+L68
+VPze_USnN3AD95<FaDkL<n3
+!s100 6aGY4B?J?;1iD[REoI<_i1
+R8
+32
+R29
+!i10b 1
+R30
+R52
+R53
+!i113 1
+R13
+R14
+Efpadd_stage3
+R26
+R3
+R4
+R5
+R0
+Z56 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_stage3_struct.vhd
+Z57 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_stage3_struct.vhd
+l0
+L16
+V7RC1nNH7dnfh3nOBgMd3D3
+!s100 Vg3zSjiDP[7g6K0h^:Ffo1
+R8
+32
+R29
+!i10b 1
+R30
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_stage3_struct.vhd|
+Z59 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_stage3_struct.vhd|
+!i113 1
+R13
+R14
+Astruct
+Z60 DEx4 work 8 fpinvert 0 22 80DAal1a`b5MkX?]dh0EM1
+R36
+R3
+R4
+R5
+l91
+L60
+V6`cYf2MlMWB[ik@B:zYnm3
+!s100 2V[?52oodYM0LCA]@Ug@I1
+R8
+32
+R29
+!i10b 1
+R30
+R58
+R59
+!i113 1
+R13
+R14
+Efpadd_stage4
+R26
+R3
+R4
+R5
+R0
+Z61 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_stage4_struct.vhd
+Z62 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_stage4_struct.vhd
+l0
+L16
+VkFHm8=o^NoA>g:jBFcLe62
+!s100 XPh2;Xakhf>FaK3fCGQio2
+R8
+32
+Z63 !s110 1635847226
+!i10b 1
+R30
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_stage4_struct.vhd|
+Z65 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_stage4_struct.vhd|
+!i113 1
+R13
+R14
+Astruct
+R2
+Z66 DEx4 work 15 fpselcomplement 0 22 ;5R]1dklTC1]zgXbPYl`e3
+R44
+R35
+R3
+R4
+R5
+l104
+L57
+VQ>nWMAMze_Rhhfm^O;PoV3
+!s100 TPFXIz?7?fOBWGI=O3<oU3
+R8
+32
+R63
+!i10b 1
+R30
+R64
+R65
+!i113 1
+R13
+R14
+Efpadd_stage5
+R26
+R3
+R4
+R5
+R0
+Z67 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_stage5_struct.vhd
+Z68 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_stage5_struct.vhd
+l0
+L16
+VhZR:5LO5?RQ6@A`8SLPCR1
+!s100 laD5MClLSI6?QDREIlkkR0
+R8
+32
+R63
+!i10b 1
+Z69 !s108 1635847226.000000
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_stage5_struct.vhd|
+Z71 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_stage5_struct.vhd|
+!i113 1
+R13
+R14
+Astruct
+Z72 DEx4 work 7 fpround 0 22 BX15nlgCVRGnc@dNLElZb3
+R2
+Z73 DEx4 work 11 fpnormalize 0 22 a;a;MC5565j5@A>o9RFOX0
+R34
+R3
+R4
+R5
+l100
+L58
+VJd2hORD[YE<<kQ=O3P=:z0
+!s100 2GOU:<::@:A^@NSoDGeaQ0
+R8
+32
+R63
+!i10b 1
+R69
+R70
+R71
+!i113 1
+R13
+R14
+Efpadd_stage6
+R26
+R3
+R4
+R5
+R0
+Z74 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_stage6_struct.vhd
+Z75 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_stage6_struct.vhd
+l0
+L16
+VJB_G<kShzW0I@Y?;T8dU_0
+!s100 STX=7GDFQ>Y@GC[i5^hac2
+R8
+32
+R63
+!i10b 1
+R69
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_stage6_struct.vhd|
+Z77 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpadd_stage6_struct.vhd|
+!i113 1
+R13
+R14
+Astruct
+Z78 DEx4 work 6 packfp 0 22 SAP3f_<554a1hXBziN:3V0
+R33
+R3
+R4
+R5
+l82
+L51
+VkUm^U85iRBACzM<6KnHD42
+!s100 _aDf7Ae0S;mT;Bb@m]RQC3
+R8
+32
+R63
+!i10b 1
+R69
+R76
+R77
+!i113 1
+R13
+R14
+Efpalign
+R26
+R3
+R4
+R5
+R0
+Z79 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpalign_struct.vhd
+Z80 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpalign_struct.vhd
+l0
+L16
+Vj<c@]dFg6jEJzjJEUoCV@0
+!s100 0<oRQ2;DB=dSWhAIVd7Wz0
+R8
+32
+R63
+!i10b 1
+R69
+Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpalign_struct.vhd|
+Z82 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpalign_struct.vhd|
+!i113 1
+R13
+R14
+Astruct
+R55
+R2
+R3
+R4
+R5
+l60
+L49
+VQeFj_<odNZ;`FKQa?iBWj1
+!s100 b:;Q1Sfh:UXbKZ7X[WCV10
+R8
+32
+R63
+!i10b 1
+R69
+R81
+R82
+!i113 1
+R13
+R14
+Efpinvert
+R26
+R3
+R4
+R5
+R0
+Z83 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpinvert_fpinvert.vhd
+Z84 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpinvert_fpinvert.vhd
+l0
+L16
+V80DAal1a`b5MkX?]dh0EM1
+!s100 XQ6o^HMM^@_A=>Z?kZ@0L2
+R8
+32
+R63
+!i10b 1
+R69
+Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpinvert_fpinvert.vhd|
+Z86 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpinvert_fpinvert.vhd|
+!i113 1
+R13
+R14
+Afpinvert
+R3
+R4
+R5
+R60
+l36
+L35
+VM<eBXba0oAX6g^VQRIn0B3
+!s100 AQPzQL16RXm2cFU_3jdma2
+R8
+32
+R63
+!i10b 1
+R69
+R85
+R86
+!i113 1
+R13
+R14
+Efplzc
+R26
+R3
+R4
+R5
+R0
+Z87 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fplzc_fplzc.vhd
+Z88 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fplzc_fplzc.vhd
+l0
+L16
+Vnkd3[zn8<k`eEhcD_Ki^c3
+!s100 d3J:eG3@aYiF2^jRomi^H2
+R8
+32
+R63
+!i10b 1
+R69
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fplzc_fplzc.vhd|
+Z90 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fplzc_fplzc.vhd|
+!i113 1
+R13
+R14
+Afplzc
+R3
+R4
+R5
+R43
+l30
+L29
+VAG:<NGAo?Nb[I6>VX6@h@2
+!s100 GlGNf?L@Qn[<I6PDczkd71
+R8
+32
+R63
+!i10b 1
+R69
+R89
+R90
+!i113 1
+R13
+R14
+Efpmul
+R26
+R3
+R4
+R5
+R0
+Z91 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/multiplier/fpmul_pipeline.vhd
+Z92 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/multiplier/fpmul_pipeline.vhd
+l0
+L16
+VA=Ak9Qk9Q]EAVd^ISJiQi0
+!s100 UIfZ<B9e`aCZ8<W3KH@`n1
+R8
+32
+R9
+!i10b 1
+R10
+Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/multiplier/fpmul_pipeline.vhd|
+Z94 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/multiplier/fpmul_pipeline.vhd|
+!i113 1
+R13
+R14
+Apipeline
+Z95 DEx4 work 12 fpmul_stage4 0 22 57da6HDGnSeY@DX:edbL]0
+Z96 DEx4 work 12 fpmul_stage3 0 22 6fRLi0GLEjA2FA9MHWUj;1
+Z97 DEx4 work 12 fpmul_stage2 0 22 R`R^;A9DOadFNePF8b7DI2
+Z98 DEx4 work 12 fpmul_stage1 0 22 m^HD4^mPe>JK2LiTFQ8QB3
+DEx4 work 5 fpmul 0 22 A=Ak9Qk9Q]EAVd^ISJiQi0
+R3
+R4
+R5
+l158
+L45
+VJ7o2]Mc^RNIz=`:Wkf53a2
+!s100 _O?B]^>=3O^N_X_5TK=ji1
+R8
+32
+R9
+!i10b 1
+R10
+R93
+R94
+!i113 1
+R13
+R14
+Efpmul_stage1
+R26
+R3
+R4
+R5
+R0
+Z99 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/multiplier/fpmul_stage1_struct.vhd
+Z100 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/multiplier/fpmul_stage1_struct.vhd
+l0
+L16
+Vm^HD4^mPe>JK2LiTFQ8QB3
+!s100 :3j_NH:3ASmWeM>c2?Oi23
+R8
+32
+R9
+!i10b 1
+R10
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/multiplier/fpmul_stage1_struct.vhd|
+Z102 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/multiplier/fpmul_stage1_struct.vhd|
+!i113 1
+R13
+R14
+Astruct
+R49
+R98
+R3
+R4
+R5
+l99
+L53
+VN2n3Jcfd1F_dRV_oI_3j:2
+!s100 Nho7]Di^H_KzfNPoYlzQf1
+R8
+32
+R9
+!i10b 1
+R10
+R101
+R102
+!i113 1
+R13
+R14
+Efpmul_stage2
+R26
+R3
+R4
+R5
+R0
+Z103 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/multiplier/fpmul_stage2_struct.vhd
+Z104 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/multiplier/fpmul_stage2_struct.vhd
+l0
+L16
+VR`R^;A9DOadFNePF8b7DI2
+!s100 A2BQ>GONk8>Akb6mU2EVB1
+R8
+32
+Z105 !s110 1635847224
+!i10b 1
+R10
+Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/multiplier/fpmul_stage2_struct.vhd|
+Z107 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/multiplier/fpmul_stage2_struct.vhd|
+!i113 1
+R13
+R14
+Astruct
+R97
+R3
+R4
+R5
+l74
+L59
+VUN`>D1:Lg[JTjRRcNHzi=2
+!s100 m[RY:H=]a65n=XTkBY8UJ2
+R8
+32
+R105
+!i10b 1
+R10
+R106
+R107
+!i113 1
+R13
+R14
+Efpmul_stage3
+R26
+R3
+R4
+R5
+R0
+Z108 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/multiplier/fpmul_stage3_struct.vhd
+Z109 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/multiplier/fpmul_stage3_struct.vhd
+l0
+L16
+V6fRLi0GLEjA2FA9MHWUj;1
+!s100 MMcBTY60X3ifGNKdiG4hd2
+R8
+32
+R105
+!i10b 1
+Z110 !s108 1635847224.000000
+Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/multiplier/fpmul_stage3_struct.vhd|
+Z112 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/multiplier/fpmul_stage3_struct.vhd|
+!i113 1
+R13
+R14
+Astruct
+R72
+R2
+R73
+R96
+R3
+R4
+R5
+l100
+L58
+VSZoGB8Ndm7NlU5C84>EM13
+!s100 F>9B`INEMlYfo;9aBIEFb2
+R8
+32
+R105
+!i10b 1
+R110
+R111
+R112
+!i113 1
+R13
+R14
+Efpmul_stage4
+R26
+R3
+R4
+R5
+R0
+Z113 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/multiplier/fpmul_stage4_struct.vhd
+Z114 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/multiplier/fpmul_stage4_struct.vhd
+l0
+L16
+V57da6HDGnSeY@DX:edbL]0
+!s100 GKHN@VUYBMJfMJN3nlg]^0
+R8
+32
+R105
+!i10b 1
+R110
+Z115 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/multiplier/fpmul_stage4_struct.vhd|
+Z116 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/multiplier/fpmul_stage4_struct.vhd|
+!i113 1
+R13
+R14
+Astruct
+R78
+R2
+R73
+R95
+R3
+R4
+R5
+l96
+L51
+VYKXcenJc__8bZ_S@Y6Kk43
+!s100 0Yc=85d:VInde>fl38W[b2
+R8
+32
+R105
+!i10b 1
+R110
+R115
+R116
+!i113 1
+R13
+R14
+Efpnormalize
+R26
+R2
+R3
+R4
+R5
+R0
+Z117 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/common/fpnormalize_fpnormalize.vhd
+Z118 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/common/fpnormalize_fpnormalize.vhd
+l0
+L17
+Va;a;MC5565j5@A>o9RFOX0
+!s100 BUjUAMkjQc3i8Jl5B5FoX0
+R8
+32
+R105
+!i10b 1
+R110
+Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/common/fpnormalize_fpnormalize.vhd|
+Z120 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/common/fpnormalize_fpnormalize.vhd|
+!i113 1
+R13
+R14
+Afpnormalize
+R2
+R3
+R4
+R5
+R73
+l35
+L34
+V@<eTo9ghTJ8i?WYZ]l2IS0
+!s100 I6J0=:VN^oWBdKzYW7[Mg3
+R8
+32
+R105
+!i10b 1
+R110
+R119
+R120
+!i113 1
+R13
+R14
+Efpround
+R26
+R2
+R3
+R4
+R5
+R0
+Z121 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/common/fpround_fpround.vhd
+Z122 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/common/fpround_fpround.vhd
+l0
+L17
+VBX15nlgCVRGnc@dNLElZb3
+!s100 Ie14d[iLcC63KLGjc:z<A1
+R8
+32
+R105
+!i10b 1
+R110
+Z123 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/common/fpround_fpround.vhd|
+Z124 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/common/fpround_fpround.vhd|
+!i113 1
+R13
+R14
+Afpround
+R2
+R3
+R4
+R5
+R72
+l35
+L34
+V1aN2VDa4m9`S:m3UQ8WQe1
+!s100 ndTGM7]9X@o`5EOkU2jll3
+R8
+32
+R105
+!i10b 1
+R110
+R123
+R124
+!i113 1
+R13
+R14
+Efpselcomplement
+R26
+R2
+R3
+R4
+R5
+R0
+Z125 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpselcomplement_fpselcomplement.vhd
+Z126 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpselcomplement_fpselcomplement.vhd
+l0
+L17
+V;5R]1dklTC1]zgXbPYl`e3
+!s100 fXf36C3?IMS@HXK`C[VM:1
+R8
+32
+R63
+!i10b 1
+R69
+Z127 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpselcomplement_fpselcomplement.vhd|
+Z128 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpselcomplement_fpselcomplement.vhd|
+!i113 1
+R13
+R14
+Afpselcomplement
+R2
+R3
+R4
+R5
+R66
+l35
+L34
+VlQ@?GaU3jhd2GQBPjPJ0Q2
+!s100 ^3Tn7JboCkF`9WOXCgfAa0
+R8
+32
+R63
+!i10b 1
+R69
+R127
+R128
+!i113 1
+R13
+R14
+Efpswap
+R26
+R3
+R4
+R5
+R0
+Z129 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpswap_fpswap.vhd
+Z130 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpswap_fpswap.vhd
+l0
+L16
+VGJC@XXL4ajOO`YP@G;b]g3
+!s100 :90b5lZ7Bl:ilSdJfTXdP2
+R8
+32
+Z131 !s110 1635847227
+!i10b 1
+Z132 !s108 1635847227.000000
+Z133 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpswap_fpswap.vhd|
+Z134 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/adder/fpswap_fpswap.vhd|
+!i113 1
+R13
+R14
+Afpswap
+R3
+R4
+R5
+R54
+l35
+L34
+Z135 Vm>SSkUhYlidlgdT;<8O]n1
+Z136 !s100 LBeN;@>3;Z8FkDOSKH6k92
+R8
+32
+R131
+!i10b 1
+R132
+R133
+R134
+!i113 1
+R13
+R14
+Epackfp
+R26
+R3
+R4
+R5
+R0
+Z137 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/common/packfp_packfp.vhd
+Z138 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/common/packfp_packfp.vhd
+l0
+L16
+VSAP3f_<554a1hXBziN:3V0
+!s100 01>7]i`Z0N7NH9g:Ga>l=0
+R8
+32
+R105
+!i10b 1
+R110
+Z139 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/common/packfp_packfp.vhd|
+Z140 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/common/packfp_packfp.vhd|
+!i113 1
+R13
+R14
+Apackfp
+R3
+R4
+R5
+R78
+l34
+L33
+V[7ccQP1Q;1CJQl?0]gBNH0
+!s100 boEIjXMzHClblfW8W7BJS0
+R8
+32
+R105
+!i10b 1
+R110
+R139
+R140
+!i113 1
+R13
+R14
+Etb_mul
+Z141 w1635847012
+R3
+R4
+R5
+R0
+Z142 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/tb/tb_mul.vhd
+Z143 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/tb/tb_mul.vhd
+l0
+L5
+VLX>73^VdzJIAG1EdmObiM2
+!s100 ^Z5_CzFk^7V3RJ_k=X<SX2
+R8
+32
+R9
+!i10b 1
+R10
+Z144 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/tb/tb_mul.vhd|
+Z145 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/tb/tb_mul.vhd|
+!i113 1
+R13
+R14
+Aarch
+R3
+R4
+R5
+DEx4 work 6 tb_mul 0 22 LX>73^VdzJIAG1EdmObiM2
+l42
+L8
+VB2e69nYMML9UW6;9I1ABo2
+!s100 O?ALOlON^QiSkdGZSH=Fg1
+R8
+32
+R9
+!i10b 1
+R10
+R144
+R145
+!i113 1
+R13
+R14
+Eunpackfp
+R26
+R3
+R4
+R5
+R0
+Z146 8C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/common/unpackfp_unpackfp.vhd
+Z147 FC:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/common/unpackfp_unpackfp.vhd
+l0
+L15
+V37[Dg7h=I0ajFd?7fl2Kd2
+!s100 iXK2eKKm@g^[^1N:863BC1
+R8
+32
+R29
+!i10b 1
+R30
+Z148 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/common/unpackfp_unpackfp.vhd|
+Z149 !s107 C:/Users/monca/Documents/Politecnico/ISA/ISAL2/fpuvhdl/common/unpackfp_unpackfp.vhd|
+!i113 1
+R13
+R14
+Aunpackfp
+R3
+R4
+R5
+R49
+l37
+L33
+VJUFeK?hRB=<IVP7VTiXR73
+!s100 LM2:M<W34`8Dk4EdA2IlO0
+R8
+32
+R29
+!i10b 1
+R30
+R148
+R149
+!i113 1
+R13
+R14
