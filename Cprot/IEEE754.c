@@ -28,6 +28,7 @@ void convDegPart2Bin(float DegP, char *convertedValue)
 		*(convertedValue + i) = 0 == (int)DegP ? '0' : '1';
 		DegP -= (int)DegP; //when DegP reaches 1.0 it returns to 0.0 and ends with all 0s in the encoding
 	}
+	*(convertedValue + i) = '\0';
 }
 /*@brief: takes integ part and deg part encodings and places them in a single string like: xxxx.yyyy*/
 void mountintegPartEncWithDegPartEncod(char *integ, char*deg, char*intermed)
@@ -53,6 +54,7 @@ void evaluatepow2exp(char* intermed, int *xExp, int IntegPartValue)
 	Thus I have to start the count just ignoring the first mantixSIZE-strictly_necessary_bits position.
 	Then, I have ignoring the eventually '0' first position cell, since it would be not significative
 	*/
+	/*************************** Internally Declared Function ************************************/
 	int EvaluateStrictlyNecessaryBits(int IntegPartValue){
 		int cmp = 1; //cmp is used to compare IntegPartValue. It is initialized to 2^0 (i.e. 1)
 		int strictlyncessarybits = 1;
@@ -64,7 +66,7 @@ void evaluatepow2exp(char* intermed, int *xExp, int IntegPartValue)
 		}
 		return strictlyncessarybits;
 	}
-	
+	/**********************************************************************************************/
 	int strictlynecbits = EvaluateStrictlyNecessaryBits(IntegPartValue);
 	intermed += mantixSIZE - (strictlynecbits+1);
 	int i;
@@ -72,13 +74,16 @@ void evaluatepow2exp(char* intermed, int *xExp, int IntegPartValue)
 	int finished = 0;
 	int first1index; //stores the position of the first '1'
 	if('0' == *intermed){
+		printf("*INTERMED 0\n");
 		i = 1;
 		first1index = 1;
 	}
 	else {
+		printf("*INTERMED 0\n");
 		i = 0;
 		first1index = 0;
 	} 
+	
 	printf("strictlynec: %d\n", strictlynecbits);	
 	printf("first i: %d\n",i);
 	printf("string: %s\n", intermed);
@@ -93,6 +98,7 @@ void evaluatepow2exp(char* intermed, int *xExp, int IntegPartValue)
 	}
 	printf("cnt: %d\tfirst1index:%d\n\n",cnt,first1index);
 	*xExp = cnt - (first1index +1);
+	//*xExp = strictlynecbits -1;
 }
 /*@brief: simalr to convIntegPart2Bin, but uses exponentSIZE instead of mantixSIZE*/
 void convExp2bin(int realExp, char *convertedValue)
@@ -103,7 +109,7 @@ void convExp2bin(int realExp, char *convertedValue)
 		*(convertedValue + exponentSIZE-i-1) = 0 == reminder ? '0' : '1';
 		realExp = realExp>>1;
 	}
-
+	*(convertedValue + exponentSIZE) = '\0';
 }
 /*@brief: write the final mantissa Encoding*/
 void MantixEncoding(char* intermediateSTR, int xExp, char*mantixSTR)
@@ -185,7 +191,7 @@ void Float2IEEE754Conversion(float Value, char *EncodingSTR)
 	printf("MANTIX: %s\n", mantixSTR);
 	//final encoding
 	IEEE754Encoder(Value, mantixSTR, realExpEncod,IEEE754Encoding);
-	//printf("Final Encoding: %s\n", IEEE754Encoding);
+	printf("Final Encoding: %s\n", IEEE754Encoding);
 	for(i = 0; i < SIZE; i++){
 		*EncodingSTR++ = IEEE754Encoding[i];
 	}

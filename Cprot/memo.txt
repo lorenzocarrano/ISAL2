@@ -21,3 +21,17 @@ Cose da fare
  3.Capire come convertire l'esponente nel caso in cui sia negativo (magari vedere nel documenti di ComputerArchitecture)
 
 
+ ___________________________________________________________________________________________________________________________________
+ Provare a cambiare approccio: 
+ in evaluatepow2exp provare a contare partendo dal punto.
+ xExp è pari al numero di bit strettamente necessari -1:
+
+ se avessi 1.011000101
+ xExp = 1 -1 = 0                                                          NO, non è questo il problema
+ se avesso 100101.101010001101
+ avrei nbit = 6
+ dunque xExp = 6-1 ----> xExp = 5
+___________________________________________________________________________________________________________________________________
+
+Punto della situazione: al momento sembra non funzionare con numeri inferiori di 3.
+Con valori di input >=3 tutto funziona correttamente

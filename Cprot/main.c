@@ -13,7 +13,8 @@ int main(int argc, char* argv[]){
     FILE *fpin, *fpout1, *fpout2;
     float readValue;
     char IEEE754EncodingSTR[SIZE+1];
-    fpin = fopen("handwrittensamples.txt", "r");
+    //fpin = fopen("handwrittensamples.txt", "r");
+    fpin = fopen("testSamples.txt", "r");
     fpout1 = fopen("./simulation_inputs.txt", "w");
     fpout2 = fopen("./expected_outputs.txt", "w");
     if(NULL == fpin){
@@ -21,6 +22,7 @@ int main(int argc, char* argv[]){
     }
     printf("generating std_logic_vector samples and expected output result\n");
     while(EOF != fscanf(fpin, "%f", &readValue)){
+        printf("read value: %f\n", readValue);
         printf("input vector generation\n");
         Float2IEEE754Conversion(readValue, IEEE754EncodingSTR);
         printf("converted\n");
