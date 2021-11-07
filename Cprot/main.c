@@ -15,7 +15,7 @@ int main(int argc, char* argv[]){
     char files_differ_or_identical[10];
     float readValue;
     char IEEE754EncodingSTR[SIZE+1];
-    int canc;
+    int i;
     /*******************************************/
 
     if(argc == 1)   //program name only
@@ -60,6 +60,7 @@ int main(int argc, char* argv[]){
             fclose(fpout1);
             fclose(fpout2);
             break;
+        
         case TEST_VALIDATION_MODE:
             /* invoke system() to call a diff between the two output files, 
                the C-generated one and the VHDL-generated one. */
@@ -83,11 +84,11 @@ int main(int argc, char* argv[]){
             testRESULT_strlength = strlen(testRESULT);
             printf("%s", testRESULT);
             strcpy(files_differ_or_identical, (testRESULT+testRESULT_strlength-10));
-            /*
-            if(strcmp(files_differ_or_identical, "differ") == 0){
+            
+            if(strncmp((testRESULT+testRESULT_strlength-7), "differ", 6) == 0){
                 printf("Test Failed.\n");
             }
-            else if(strcmp(files_differ_or_identical, "identical") == 0){
+            else if(strncmp((testRESULT+testRESULT_strlength-10), "identical", 9) == 0){
                 printf("Test Success.\n");
             }
             else {
@@ -95,18 +96,12 @@ int main(int argc, char* argv[]){
                 printf("%s", files_differ_or_identical);
                 return -1;
             }
-            */
-            canc = strcmp(files_differ_or_identical, "identical");
-            printf("%s", files_differ_or_identical);
-            printf("canc: %d\n", canc);
-            if(canc == 0){
-                printf("Test Success.\n");
-            }
+
             pclose(testResponse);
-        break;
+            break;
         default:    //i.e. wrong parameters from command line
             printf("Error: wrong arguments\n");
-        break;
+            break;
    }
     
     
