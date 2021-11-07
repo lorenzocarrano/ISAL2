@@ -1,29 +1,29 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+//#include <system.h>
 #include "IEEE754.h"
 enum testModes {TEST_INIT_MODE, TEST_VALIDATION_MODE, UNEXPECTED};
 int main(int argc, char* argv[]){
 
+    /*variables declaration*/
     enum testModes mode;
-    /*I have to include:
-     argc check
-     switch construct to enter in the 2 modes:
-        1.generating input vectors file and expectedoutputfile
-        2.call diff between modelsim-returned output file and the one previusly generated
-    */
-
-    /*variables declaration for TEST_INIT_MODE*/
     FILE *fpin, *fpout1, *fpout2;
+    FILE *testResponse;
+    char testRESULT[1035];
+    long testRESULT_strlength;
+    char files_differ_or_identical[10];
     float readValue;
     char IEEE754EncodingSTR[SIZE+1];
+    int canc;
     /*******************************************/
 
     if(argc == 1)   //program name only
         mode = TEST_INIT_MODE;
     else if(argc == 2){
-        if(*argv[1] == 'i')
+        if(argv[1][1] == 'i')
             mode = TEST_INIT_MODE;
-        else if(*argv[1] == 'v')
+        else if(argv[1][1] == 'v')
             mode = TEST_VALIDATION_MODE;
         else 
             mode = UNEXPECTED;
@@ -65,6 +65,44 @@ int main(int argc, char* argv[]){
                the C-generated one and the VHDL-generated one. */
                
                //system("diff ./expected_outputs.txt ./../...addpath...");
+            //system("diff -qsZB expected_outputs.txt test_results.txt");
+            testResponse = popen("diff -qsZB expected_outputs.txt test_results.txt", "r");
+            if(testResponse == NULL){
+                printf("Failed to run diff command");
+                return -1;
+            }
+            /*
+            while (fgets(testRESULT, sizeof(testRESULT), testResponse) != NULL){
+                testRESULT_strlength = strlen(testRESULT);
+                printf("%s", testRESULT);
+                strcpy(files_differ_or_identical, (testRESULT+testRESULT_strlength-10));
+
+            }*/
+            //no while cycle needed because in with these arguments I already know that diff returns a single line string.
+            fgets(testRESULT, sizeof(testRESULT), testResponse);
+            testRESULT_strlength = strlen(testRESULT);
+            printf("%s", testRESULT);
+            strcpy(files_differ_or_identical, (testRESULT+testRESULT_strlength-10));
+            /*
+            if(strcmp(files_differ_or_identical, "differ") == 0){
+                printf("Test Failed.\n");
+            }
+            else if(strcmp(files_differ_or_identical, "identical") == 0){
+                printf("Test Success.\n");
+            }
+            else {
+                printf("Problem with diff return string\n");
+                printf("%s", files_differ_or_identical);
+                return -1;
+            }
+            */
+            canc = strcmp(files_differ_or_identical, "identical");
+            printf("%s", files_differ_or_identical);
+            printf("canc: %d\n", canc);
+            if(canc == 0){
+                printf("Test Success.\n");
+            }
+            pclose(testResponse);
         break;
         default:    //i.e. wrong parameters from command line
             printf("Error: wrong arguments\n");
