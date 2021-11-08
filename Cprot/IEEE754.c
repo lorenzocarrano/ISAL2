@@ -3,7 +3,8 @@
 void separate_integer_and_decimal_parts(float v, int *intPart, float *decPart)
 {
 	*intPart = v;
-	*decPart = v - *intPart;	
+	*decPart = v - *intPart;
+	*intPart = *intPart < 0 ? -*intPart : *intPart;	
 }
 /*@brief: takes the integer part of a number and returns its binary encoding*/
 void convIntegPart2Bin(int IntP, char *convertedValue)
