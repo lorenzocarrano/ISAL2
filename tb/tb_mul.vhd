@@ -11,7 +11,7 @@ component FPmul IS
    PORT( 
       FP_A : IN     std_logic_vector (31 DOWNTO 0);
       FP_B : IN     std_logic_vector (31 DOWNTO 0);
-      clk  : IN     std_logic;
+      CLK  : IN     std_logic;
       FP_Z : OUT    std_logic_vector (31 DOWNTO 0)
    );
 
