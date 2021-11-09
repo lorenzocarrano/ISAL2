@@ -146,6 +146,18 @@ ARCHITECTURE pipeline OF FPmul IS
    );
    END COMPONENT;
 
+   component REG is
+
+      Generic (NBIT: integer:= 32);
+   
+      Port (	D:	In	std_logic_vector(NBIT-1 downto 0);
+            CK:	In	std_logic;
+            RESET:	In	std_logic;
+            ENABLE: In 	std_logic;
+            Q:	Out	std_logic_vector(NBIT-1 downto 0));
+   
+   end component;
+
    -- Optional embedded configurations
    -- pragma synthesis_off
    FOR ALL : FPmul_stage1 USE ENTITY work.FPmul_stage1;
@@ -153,15 +165,19 @@ ARCHITECTURE pipeline OF FPmul IS
    FOR ALL : FPmul_stage3 USE ENTITY work.FPmul_stage3;
    FOR ALL : FPmul_stage4 USE ENTITY work.FPmul_stage4;
    -- pragma synthesis_on
-
+   signal FP_A_sig, FP_B_sig: std_logic_vector(31 downto 0);
 
 BEGIN
 
    -- Instance port mappings.
+
+   reg1 : REG port map (FP_A, clk, '1', '1', FP_A_sig);
+   reg2 : REG port map (FP_B, clk, '1', '1', FP_B_sig);
+
    I1 : FPmul_stage1
       PORT MAP (
-         FP_A            => FP_A,
-         FP_B            => FP_B,
+         FP_A            => FP_A_sig,
+         FP_B            => FP_B_sig,
          clk             => clk,
          A_EXP           => A_EXP,
          A_SIG           => A_SIG,

@@ -9,1168 +9,1352 @@ z2
 !i10f 100
 cModel Technology
 dC:/Users/monca/Documents/Politecnico/ISA/ISAL2/sim
+Ccfg_fd_asynch
+eFD
+aASYNCH
+DAx4 work 2 fd 6 asynch 22 >d8To0?JGEk7oc2]RiKc=3
+Z0 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z1 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z2 DEx4 work 2 fd 0 22 K^Q:b4XcW>F[KPZ>lHDRC3
+!i122 186
+Z3 w1634626645
+Z4 dC:/Users/S290315/Desktop/LAB/ISAL2/sim
+Z5 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fd.vhd
+Z6 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fd.vhd
+l0
+L56 1
+VZ^WRb0F=WTaV2N`5HEf4Z2
+!s100 >c24<j@[CT4K[JDJjH_Ll3
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1636448443
+!i10b 0
+Z9 !s108 1636448443.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fd.vhd|
+Z11 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fd.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Ccfg_fd_synch
+eFD
+aSYNCH
+DAx4 work 2 fd 5 synch 22 99a[aB_X?][1_[PEFH0ZC0
+R0
+R1
+R2
+!i122 186
+R3
+R4
+R5
+R6
+l0
+L50 1
+V1NSz1Hkf?>S0CE;6ldX_E0
+!s100 [oc2IgZMUPPUZi;2:3V@S0
+R7
+32
+R8
+!i10b 0
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ccfg_reg_synch
+eREG
+aARCH
+R2
+DCx4 work 12 cfg_fd_synch 0 22 1NSz1Hkf?>S0CE;6ldX_E0
+DAx4 work 3 reg 4 arch 22 0RDb;iAcbMVSN3o`hLYMc2
+Z14 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R0
+R1
+Z15 DEx4 work 3 reg 0 22 9R;KXj`O2S2Vjbh_K6Z5l0
+!i122 187
+Z16 w1636448429
+R4
+Z17 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/register.vhd
+Z18 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/register.vhd
+l0
+L37 1
+V9iiRWM4E_CB;LkT9fCZH>3
+!s100 :ABeI:QzPWhM^GACBQG`:2
+R7
+32
+Z19 !s110 1636448444
+!i10b 0
+R9
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/register.vhd|
+Z21 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/register.vhd|
+!i113 1
+R12
+R13
 Eclk_gen
-Z0 w1636444592
-Z1 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 52
-Z5 dC:/Users/S290315/Desktop/LAB/ISAL2/sim
-Z6 8C:/Users/S290315/Desktop/LAB/ISAL2/tb/clk_gen.vhd
-Z7 FC:/Users/S290315/Desktop/LAB/ISAL2/tb/clk_gen.vhd
+Z22 w1636444592
+Z23 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z24 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R0
+R1
+!i122 160
+R4
+Z25 8C:/Users/S290315/Desktop/LAB/ISAL2/tb/clk_gen.vhd
+Z26 FC:/Users/S290315/Desktop/LAB/ISAL2/tb/clk_gen.vhd
 l0
 L6 1
 VImmj_^ZahKJ^aJ^nS[W>R2
 !s100 SLN;:6OIZ2KZA<CIeaa3o2
-Z8 OV;C;2020.1;71
+R7
 32
-Z9 !s110 1636446455
+Z27 !s110 1636448440
 !i10b 1
-Z10 !s108 1636446455.000000
-Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/tb/clk_gen.vhd|
-Z12 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/tb/clk_gen.vhd|
+Z28 !s108 1636448440.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/tb/clk_gen.vhd|
+Z30 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/tb/clk_gen.vhd|
 !i113 1
-Z13 o-work work -2002 -explicit
-Z14 tExplicit 1 CvgOpt 0
+R12
+R13
 Abeh
+R23
+R24
+R0
 R1
-R2
-R3
-R4
 DEx4 work 7 clk_gen 0 22 Immj_^ZahKJ^aJ^nS[W>R2
-!i122 52
+!i122 160
 l17
 L11 29
 VcFB_d2WJU@YE`NQ6i@hk?1
 !s100 4<962U[n8>EUj;lAkOO9d0
-R8
+R7
 32
-R9
+R27
 !i10b 1
-R10
-R11
-R12
+R28
+R29
+R30
 !i113 1
+R12
 R13
-R14
 Edata_maker
+R22
+Z31 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R23
+R24
 R0
-Z15 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
 R1
-R2
-R3
+!i122 161
 R4
-!i122 53
-R5
-Z16 8C:/Users/S290315/Desktop/LAB/ISAL2/tb/data_maker.vhd
-Z17 FC:/Users/S290315/Desktop/LAB/ISAL2/tb/data_maker.vhd
+Z32 8C:/Users/S290315/Desktop/LAB/ISAL2/tb/data_maker.vhd
+Z33 FC:/Users/S290315/Desktop/LAB/ISAL2/tb/data_maker.vhd
 l0
-Z18 L10 1
+Z34 L10 1
 VYRKOV=Q?C8`8AEF0hk<hC3
 !s100 1J]6BW;MQD1fNgL32=HQo1
-R8
+R7
 32
-R9
+R27
 !i10b 1
-R10
-Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/tb/data_maker.vhd|
-Z20 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/tb/data_maker.vhd|
+R28
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/tb/data_maker.vhd|
+Z36 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/tb/data_maker.vhd|
 !i113 1
+R12
 R13
-R14
 Abeh
-R15
+R31
+R23
+R24
+R0
 R1
-R2
-R3
-R4
 DEx4 work 10 data_maker 0 22 YRKOV=Q?C8`8AEF0hk<hC3
-!i122 53
+!i122 161
 l20
 L16 21
 V5e@L<IXld3TFRK^T2lEMY1
 !s100 BMCiiR<@IFz@0e<PQO24:2
-R8
+R7
 32
-R9
+R27
 !i10b 1
-R10
-R19
-R20
+R28
+R35
+R36
 !i113 1
+R12
 R13
-R14
 Edata_sink
-Z21 w1636446448
-R15
+Z37 w1636446448
+R31
+R23
+R24
+R0
 R1
-R2
-R3
+!i122 162
 R4
-!i122 54
-R5
-Z22 8C:/Users/S290315/Desktop/LAB/ISAL2/tb/data_sink.vhd
-Z23 FC:/Users/S290315/Desktop/LAB/ISAL2/tb/data_sink.vhd
+Z38 8C:/Users/S290315/Desktop/LAB/ISAL2/tb/data_sink.vhd
+Z39 FC:/Users/S290315/Desktop/LAB/ISAL2/tb/data_sink.vhd
 l0
-R18
+R34
 VFQ97`nAOb6Mo;?d7Lja^F0
 !s100 OK83IF7523>0@T24UETGC3
-R8
+R7
 32
-R9
+R27
 !i10b 1
-R10
-Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/tb/data_sink.vhd|
-Z25 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/tb/data_sink.vhd|
+R28
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/tb/data_sink.vhd|
+Z41 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/tb/data_sink.vhd|
 !i113 1
+R12
 R13
-R14
 Abeh
-R15
+R31
+R23
+R24
+R0
 R1
-R2
-R3
-R4
 DEx4 work 9 data_sink 0 22 FQ97`nAOb6Mo;?d7Lja^F0
-!i122 54
+!i122 162
 l20
 L18 19
 V<aLcOQU>X0j1bk>l<VVSo2
 !s100 =T`f;Le1XAj?N?]f=L>YP1
-R8
+R7
 32
-R9
+R27
 !i10b 1
-R10
-R24
-R25
+R28
+R40
+R41
 !i113 1
+R12
 R13
-R14
-Efpadd
-R0
-R2
+Efd
 R3
+R0
+R1
+!i122 186
 R4
-!i122 66
 R5
-Z26 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_pipeline.vhd
-Z27 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_pipeline.vhd
+R6
 l0
-Z28 L16 1
+L4 1
+VK^Q:b4XcW>F[KPZ>lHDRC3
+!s100 ZdkD4GUAgW6PRR@>bfJaK3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Aasynch
+R0
+R1
+R2
+!i122 186
+l36
+L34 14
+V>d8To0?JGEk7oc2]RiKc=3
+!s100 >JD9?b;U;ZzRg42aKH>642
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Asynch
+R0
+R1
+R2
+!i122 186
+l17
+L15 18
+V99a[aB_X?][1_[PEFH0ZC0
+!s100 [a7UGC>?BXg^jgi7:f]8>1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Efpadd
+R22
+R24
+R0
+R1
+!i122 174
+R4
+Z42 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_pipeline.vhd
+Z43 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_pipeline.vhd
+l0
+Z44 L16 1
 V_IH@NTdR=oomi9Pee4iDi2
 !s100 5Fmlh_cQl<CigL2n5=J[02
-R8
+R7
 32
-Z29 !s110 1636446456
+Z45 !s110 1636448442
 !i10b 1
-Z30 !s108 1636446456.000000
-Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_pipeline.vhd|
-Z32 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_pipeline.vhd|
+Z46 !s108 1636448442.000000
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_pipeline.vhd|
+Z48 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_pipeline.vhd|
 !i113 1
+R12
 R13
-R14
 Apipeline
-Z33 DEx4 work 12 fpadd_stage6 0 22 JB_G<kShzW0I@Y?;T8dU_0
-Z34 DEx4 work 12 fpadd_stage5 0 22 hZR:5LO5?RQ6@A`8SLPCR1
-Z35 DEx4 work 12 fpadd_stage4 0 22 kFHm8=o^NoA>g:jBFcLe62
-Z36 DEx4 work 12 fpadd_stage3 0 22 7RC1nNH7dnfh3nOBgMd3D3
-Z37 DEx4 work 12 fpadd_stage2 0 22 JhGN2OPO<F^aPgNT6]dEc0
-Z38 DEx4 work 12 fpadd_stage1 0 22 `O]DRFe5gPBRBz:1aA06T0
+Z49 DEx4 work 12 fpadd_stage6 0 22 JB_G<kShzW0I@Y?;T8dU_0
+Z50 DEx4 work 12 fpadd_stage5 0 22 hZR:5LO5?RQ6@A`8SLPCR1
+Z51 DEx4 work 12 fpadd_stage4 0 22 kFHm8=o^NoA>g:jBFcLe62
+Z52 DEx4 work 12 fpadd_stage3 0 22 7RC1nNH7dnfh3nOBgMd3D3
+Z53 DEx4 work 12 fpadd_stage2 0 22 JhGN2OPO<F^aPgNT6]dEc0
+Z54 DEx4 work 12 fpadd_stage1 0 22 `O]DRFe5gPBRBz:1aA06T0
 DEx4 work 5 fpadd 0 22 _IH@NTdR=oomi9Pee4iDi2
-R2
-R3
-R4
-!i122 66
+R24
+R0
+R1
+!i122 174
 l247
 L46 332
 V:N3JzTBd4Hdd:DBVL;m=C0
 !s100 4Rg^2_1EP[gJ7k@g_`@1W1
-R8
+R7
 32
-R29
+R45
 !i10b 1
-R30
-R31
-R32
+R46
+R47
+R48
 !i113 1
+R12
 R13
-R14
 Efpadd_normalize
+R22
+R24
 R0
-R2
-R3
+R1
+!i122 173
 R4
-!i122 65
-R5
-Z39 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_normalize_struct.vhd
-Z40 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_normalize_struct.vhd
+Z55 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_normalize_struct.vhd
+Z56 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_normalize_struct.vhd
 l0
-R28
+R44
 VZGYUGR@8D3F^k=K`:<XYl3
 !s100 YoT<5kABE_Tko;BoGH:N[1
-R8
+R7
 32
-R29
+R45
 !i10b 1
-R30
-Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_normalize_struct.vhd|
-Z42 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_normalize_struct.vhd|
+R46
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_normalize_struct.vhd|
+Z58 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_normalize_struct.vhd|
 !i113 1
+R12
 R13
-R14
 Astruct
-Z43 DEx4 work 5 fplzc 0 22 nkd3[zn8<k`eEhcD_Ki^c3
-Z44 DEx4 work 15 fpadd_normalize 0 22 ZGYUGR@8D3F^k=K`:<XYl3
+Z59 DEx4 work 5 fplzc 0 22 nkd3[zn8<k`eEhcD_Ki^c3
+Z60 DEx4 work 15 fpadd_normalize 0 22 ZGYUGR@8D3F^k=K`:<XYl3
+R23
+R24
+R0
 R1
-R2
-R3
-R4
-!i122 65
+!i122 173
 l81
 L47 182
 V[]Y4[V5Xo=8Hzm6=GD=Vz0
 !s100 []Q9`KCb]A4kMRE5=lhzf0
-R8
+R7
 32
-R29
+R45
 !i10b 1
-R30
-R41
-R42
+R46
+R57
+R58
 !i113 1
+R12
 R13
-R14
 Efpadd_stage1
+R22
+R24
 R0
-R2
-R3
+R1
+!i122 175
 R4
-!i122 67
-R5
-Z45 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage1_struct.vhd
-Z46 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage1_struct.vhd
+Z61 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage1_struct.vhd
+Z62 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage1_struct.vhd
 l0
-R28
+R44
 V`O]DRFe5gPBRBz:1aA06T0
 !s100 9HKmI]fRoF[S?SOzPXchM1
-R8
+R7
 32
-R29
+R45
 !i10b 1
-R30
-Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage1_struct.vhd|
-Z48 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage1_struct.vhd|
+R46
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage1_struct.vhd|
+Z64 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage1_struct.vhd|
 !i113 1
+R12
 R13
-R14
 Astruct
-Z49 DEx4 work 8 unpackfp 0 22 37[Dg7h=I0ajFd?7fl2Kd2
-R38
-R2
-R3
-R4
-!i122 67
+Z65 DEx4 work 8 unpackfp 0 22 37[Dg7h=I0ajFd?7fl2Kd2
+R54
+R24
+R0
+R1
+!i122 175
 l108
 L60 136
 ViJ`:]Eg1?M]5l2BPc^gDi0
 !s100 =hAielAo1oA>EihQNOFDJ0
-R8
+R7
 32
-R29
+R45
 !i10b 1
-R30
-R47
-R48
+R46
+R63
+R64
 !i113 1
+R12
 R13
-R14
 Efpadd_stage2
+R22
+R24
 R0
-R2
-R3
+R1
+!i122 176
 R4
-!i122 68
-R5
-Z50 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage2_struct.vhd
-Z51 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage2_struct.vhd
+Z66 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage2_struct.vhd
+Z67 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage2_struct.vhd
 l0
-R28
+R44
 VJhGN2OPO<F^aPgNT6]dEc0
 !s100 QDE3P@`FGB<nbl=Bg`K_Y3
-R8
+R7
 32
-Z52 !s110 1636446457
+R45
 !i10b 1
-Z53 !s108 1636446457.000000
-Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage2_struct.vhd|
-Z55 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage2_struct.vhd|
+R46
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage2_struct.vhd|
+Z69 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage2_struct.vhd|
 !i113 1
+R12
 R13
-R14
 Astruct
-Z56 DEx4 work 6 fpswap 0 22 GJC@XXL4ajOO`YP@G;b]g3
-Z57 DEx4 work 7 fpalign 0 22 j<c@]dFg6jEJzjJEUoCV@0
-R37
-R2
-R3
-R4
-!i122 68
+Z70 DEx4 work 6 fpswap 0 22 GJC@XXL4ajOO`YP@G;b]g3
+Z71 DEx4 work 7 fpalign 0 22 j<c@]dFg6jEJzjJEUoCV@0
+R53
+R24
+R0
+R1
+!i122 176
 l129
 L68 211
 VF3=aAU330_fV[<`V3l2fm2
 !s100 ZQQ=3fRgOhV621bN>OE;;2
-R8
+R7
 32
-R52
+R45
 !i10b 1
-R53
-R54
-R55
+R46
+R68
+R69
 !i113 1
+R12
 R13
-R14
 Efpadd_stage3
+R22
+R24
 R0
-R2
-R3
+R1
+!i122 177
 R4
-!i122 69
-R5
-Z58 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage3_struct.vhd
-Z59 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage3_struct.vhd
+Z72 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage3_struct.vhd
+Z73 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage3_struct.vhd
 l0
-R28
+R44
 V7RC1nNH7dnfh3nOBgMd3D3
 !s100 Vg3zSjiDP[7g6K0h^:Ffo1
-R8
+R7
 32
-R52
+R45
 !i10b 1
-R53
-Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage3_struct.vhd|
-Z61 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage3_struct.vhd|
+R46
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage3_struct.vhd|
+Z75 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage3_struct.vhd|
 !i113 1
+R12
 R13
-R14
 Astruct
-Z62 DEx4 work 8 fpinvert 0 22 80DAal1a`b5MkX?]dh0EM1
-R36
-R2
-R3
-R4
-!i122 69
+Z76 DEx4 work 8 fpinvert 0 22 80DAal1a`b5MkX?]dh0EM1
+R52
+R24
+R0
+R1
+!i122 177
 l91
 L60 78
 VgJddfNdnoo0lM=PhXQ9Tj0
 !s100 Vf<KiKZ?:@MUZWNjVm:l;3
-R8
+R7
 32
-R52
+R45
 !i10b 1
-R53
-R60
-R61
+R46
+R74
+R75
 !i113 1
+R12
 R13
-R14
 Efpadd_stage4
+R22
+R24
 R0
-R2
-R3
+R1
+!i122 178
 R4
-!i122 70
-R5
-Z63 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage4_struct.vhd
-Z64 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage4_struct.vhd
+Z77 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage4_struct.vhd
+Z78 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage4_struct.vhd
 l0
-R28
+R44
 VkFHm8=o^NoA>g:jBFcLe62
 !s100 XPh2;Xakhf>FaK3fCGQio2
-R8
+R7
 32
-R52
+R45
 !i10b 1
-R53
-Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage4_struct.vhd|
-Z66 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage4_struct.vhd|
+R46
+Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage4_struct.vhd|
+Z80 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage4_struct.vhd|
 !i113 1
+R12
 R13
-R14
 Astruct
+R23
+Z81 DEx4 work 15 fpselcomplement 0 22 ;5R]1dklTC1]zgXbPYl`e3
+R60
+R51
+R24
+R0
 R1
-Z67 DEx4 work 15 fpselcomplement 0 22 ;5R]1dklTC1]zgXbPYl`e3
-R44
-R35
-R2
-R3
-R4
-!i122 70
+!i122 178
 l104
 L57 137
 VjiQB[FY=U2`g74W`3:F?V0
 !s100 ;h3of6Gfb=]QD?3I_@nKT1
-R8
+R7
 32
-R52
+R45
 !i10b 1
-R53
-R65
-R66
+R46
+R79
+R80
 !i113 1
+R12
 R13
-R14
 Efpadd_stage5
+R22
+R24
 R0
-R2
-R3
+R1
+!i122 179
 R4
-!i122 71
-R5
-Z68 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage5_struct.vhd
-Z69 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage5_struct.vhd
+Z82 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage5_struct.vhd
+Z83 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage5_struct.vhd
 l0
-R28
+R44
 VhZR:5LO5?RQ6@A`8SLPCR1
 !s100 laD5MClLSI6?QDREIlkkR0
-R8
+R7
 32
-R52
+R8
 !i10b 1
-R53
-Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage5_struct.vhd|
-Z71 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage5_struct.vhd|
+R46
+Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage5_struct.vhd|
+Z85 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage5_struct.vhd|
 !i113 1
+R12
 R13
-R14
 Astruct
-Z72 DEx4 work 7 fpround 0 22 BX15nlgCVRGnc@dNLElZb3
+Z86 DEx4 work 7 fpround 0 22 BX15nlgCVRGnc@dNLElZb3
+R23
+Z87 DEx4 work 11 fpnormalize 0 22 a;a;MC5565j5@A>o9RFOX0
+R50
+R24
+R0
 R1
-Z73 DEx4 work 11 fpnormalize 0 22 a;a;MC5565j5@A>o9RFOX0
-R34
-R2
-R3
-R4
-!i122 71
+!i122 179
 l100
 L58 84
 VZB2nKW[lT52^PUGENJJZ?0
 !s100 YaV:6F[`WmKzXG@3>[<mZ1
-R8
+R7
 32
-R52
+R8
 !i10b 1
-R53
-R70
-R71
+R46
+R84
+R85
 !i113 1
+R12
 R13
-R14
 Efpadd_stage6
+R22
+R24
 R0
-R2
-R3
+R1
+!i122 180
 R4
-!i122 72
-R5
-Z74 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage6_struct.vhd
-Z75 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage6_struct.vhd
+Z88 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage6_struct.vhd
+Z89 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage6_struct.vhd
 l0
-R28
+R44
 VJB_G<kShzW0I@Y?;T8dU_0
 !s100 STX=7GDFQ>Y@GC[i5^hac2
-R8
+R7
 32
-R52
+R8
 !i10b 1
-R53
-Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage6_struct.vhd|
-Z77 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage6_struct.vhd|
+R9
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage6_struct.vhd|
+Z91 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpadd_stage6_struct.vhd|
 !i113 1
+R12
 R13
-R14
 Astruct
-Z78 DEx4 work 6 packfp 0 22 SAP3f_<554a1hXBziN:3V0
-R33
-R2
-R3
-R4
-!i122 72
+Z92 DEx4 work 6 packfp 0 22 SAP3f_<554a1hXBziN:3V0
+R49
+R24
+R0
+R1
+!i122 180
 l82
 L51 70
 VU7Ae8:4TmQkkb7RZI[;MA3
 !s100 _>n_eQ3Vn@Ca>C2kBQ1PB3
-R8
+R7
 32
-R52
+R8
 !i10b 1
-R53
-R76
-R77
+R9
+R90
+R91
 !i113 1
+R12
 R13
-R14
 Efpalign
+R22
+R24
 R0
-R2
-R3
+R1
+!i122 181
 R4
-!i122 73
-R5
-Z79 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpalign_struct.vhd
-Z80 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpalign_struct.vhd
+Z93 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpalign_struct.vhd
+Z94 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpalign_struct.vhd
 l0
-R28
+R44
 Vj<c@]dFg6jEJzjJEUoCV@0
 !s100 0<oRQ2;DB=dSWhAIVd7Wz0
-R8
+R7
 32
-R52
+R8
 !i10b 1
-R53
-Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpalign_struct.vhd|
-Z82 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpalign_struct.vhd|
+R9
+Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpalign_struct.vhd|
+Z96 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpalign_struct.vhd|
 !i113 1
+R12
 R13
-R14
 Astruct
-R57
+R71
+R23
+R24
+R0
 R1
-R2
-R3
-R4
-!i122 73
+!i122 181
 l60
 L49 94
 VQeFj_<odNZ;`FKQa?iBWj1
 !s100 b:;Q1Sfh:UXbKZ7X[WCV10
-R8
+R7
 32
-R52
+R8
 !i10b 1
-R53
-R81
-R82
+R9
+R95
+R96
 !i113 1
+R12
 R13
-R14
 Efpinvert
+R22
+R24
 R0
-R2
-R3
+R1
+!i122 182
 R4
-!i122 74
-R5
-Z83 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpinvert_fpinvert.vhd
-Z84 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpinvert_fpinvert.vhd
+Z97 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpinvert_fpinvert.vhd
+Z98 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpinvert_fpinvert.vhd
 l0
-R28
+R44
 V80DAal1a`b5MkX?]dh0EM1
 !s100 XQ6o^HMM^@_A=>Z?kZ@0L2
-R8
+R7
 32
-R52
+R8
 !i10b 1
-R53
-Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpinvert_fpinvert.vhd|
-Z86 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpinvert_fpinvert.vhd|
+R9
+Z99 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpinvert_fpinvert.vhd|
+Z100 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpinvert_fpinvert.vhd|
 !i113 1
+R12
 R13
-R14
 Afpinvert
-R2
-R3
-R4
-R62
-!i122 74
+R24
+R0
+R1
+R76
+!i122 182
 l36
 L35 8
 VM<eBXba0oAX6g^VQRIn0B3
 !s100 AQPzQL16RXm2cFU_3jdma2
-R8
+R7
 32
-R52
+R8
 !i10b 1
-R53
-R85
-R86
+R9
+R99
+R100
 !i113 1
+R12
 R13
-R14
 Efplzc
+R22
+R24
 R0
-R2
-R3
+R1
+!i122 183
 R4
-!i122 75
-R5
-Z87 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fplzc_fplzc.vhd
-Z88 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fplzc_fplzc.vhd
+Z101 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fplzc_fplzc.vhd
+Z102 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fplzc_fplzc.vhd
 l0
-R28
+R44
 Vnkd3[zn8<k`eEhcD_Ki^c3
 !s100 d3J:eG3@aYiF2^jRomi^H2
-R8
+R7
 32
-R52
+R8
 !i10b 1
-R53
-Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fplzc_fplzc.vhd|
-Z90 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fplzc_fplzc.vhd|
+R9
+Z103 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fplzc_fplzc.vhd|
+Z104 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fplzc_fplzc.vhd|
 !i113 1
+R12
 R13
-R14
 Afplzc
-R2
-R3
-R4
-R43
-!i122 75
+R24
+R0
+R1
+R59
+!i122 183
 l30
 L29 43
 VAG:<NGAo?Nb[I6>VX6@h@2
 !s100 GlGNf?L@Qn[<I6PDczkd71
-R8
+R7
 32
-R52
+R8
 !i10b 1
-R53
-R89
-R90
+R9
+R103
+R104
 !i113 1
+R12
 R13
-R14
 Efpmul
+Z105 w1636448432
+R24
 R0
-R2
-R3
+R1
+!i122 164
 R4
-!i122 56
-R5
-Z91 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_pipeline.vhd
-Z92 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_pipeline.vhd
+Z106 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_pipeline.vhd
+Z107 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_pipeline.vhd
 l0
-R28
+R44
 VA=Ak9Qk9Q]EAVd^ISJiQi0
 !s100 UIfZ<B9e`aCZ8<W3KH@`n1
-R8
+R7
 32
-R9
+Z108 !s110 1636448441
 !i10b 1
-R10
-Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_pipeline.vhd|
-Z94 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_pipeline.vhd|
+Z109 !s108 1636448441.000000
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_pipeline.vhd|
+Z111 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_pipeline.vhd|
 !i113 1
+R12
 R13
-R14
 Apipeline
-Z95 DEx4 work 12 fpmul_stage4 0 22 57da6HDGnSeY@DX:edbL]0
-Z96 DEx4 work 12 fpmul_stage3 0 22 6fRLi0GLEjA2FA9MHWUj;1
-Z97 DEx4 work 12 fpmul_stage2 0 22 R`R^;A9DOadFNePF8b7DI2
-Z98 DEx4 work 12 fpmul_stage1 0 22 m^HD4^mPe>JK2LiTFQ8QB3
+Z112 DEx4 work 12 fpmul_stage4 0 22 57da6HDGnSeY@DX:edbL]0
+Z113 DEx4 work 12 fpmul_stage3 0 22 6fRLi0GLEjA2FA9MHWUj;1
+Z114 DEx4 work 12 fpmul_stage2 0 22 R`R^;A9DOadFNePF8b7DI2
+Z115 DEx4 work 12 fpmul_stage1 0 22 m^HD4^mPe>JK2LiTFQ8QB3
 DEx4 work 5 fpmul 0 22 A=Ak9Qk9Q]EAVd^ISJiQi0
-R2
-R3
-R4
-!i122 56
-l158
-L45 185
-V2Nc:HRNF7KQ?m63ZEl^ZW1
-!s100 6`A3^5F8kZ7A[]jJF]ncA0
-R8
-32
-R9
-!i10b 1
-R10
-R93
-R94
-!i113 1
-R13
-R14
-Efpmul_stage1
+R24
 R0
-R2
-R3
+R1
+!i122 164
+l170
+L45 201
+VmGh]nXgmXC12?O[dAlUhh1
+!s100 4ZcPj^S=7DoBEWl<eP8110
+R7
+32
+R108
+!i10b 1
+R109
+R110
+R111
+!i113 1
+R12
+R13
+Efpmul_stage1
+R22
+R24
+R0
+R1
+!i122 165
 R4
-!i122 57
-R5
-Z99 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage1_struct.vhd
-Z100 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage1_struct.vhd
+Z116 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage1_struct.vhd
+Z117 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage1_struct.vhd
 l0
-R28
+R44
 Vm^HD4^mPe>JK2LiTFQ8QB3
 !s100 :3j_NH:3ASmWeM>c2?Oi23
-R8
+R7
 32
-R9
+R108
 !i10b 1
-R10
-Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage1_struct.vhd|
-Z102 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage1_struct.vhd|
+R109
+Z118 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage1_struct.vhd|
+Z119 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage1_struct.vhd|
 !i113 1
+R12
 R13
-R14
 Astruct
-R49
-R98
-R2
-R3
-R4
-!i122 57
+R65
+R115
+R24
+R0
+R1
+!i122 165
 l99
 L53 149
 VW]^6Ra94_XT;:A>3;n@Eb3
 !s100 PTI2[ja^X=eSWAi`1]:O=0
-R8
+R7
 32
-R9
+R108
 !i10b 1
-R10
-R101
-R102
+R109
+R118
+R119
 !i113 1
+R12
 R13
-R14
 Efpmul_stage2
+R22
+R24
 R0
-R2
-R3
+R1
+!i122 166
 R4
-!i122 58
-R5
-Z103 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage2_struct.vhd
-Z104 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage2_struct.vhd
+Z120 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage2_struct.vhd
+Z121 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage2_struct.vhd
 l0
-R28
+R44
 VR`R^;A9DOadFNePF8b7DI2
 !s100 A2BQ>GONk8>Akb6mU2EVB1
-R8
+R7
 32
-R9
+R108
 !i10b 1
-R10
-Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage2_struct.vhd|
-Z106 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage2_struct.vhd|
+R109
+Z122 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage2_struct.vhd|
+Z123 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage2_struct.vhd|
 !i113 1
+R12
 R13
-R14
 Astruct
-R97
-R2
-R3
-R4
-!i122 58
+R114
+R24
+R0
+R1
+!i122 166
 l74
 L59 85
 VUN`>D1:Lg[JTjRRcNHzi=2
 !s100 m[RY:H=]a65n=XTkBY8UJ2
-R8
+R7
 32
-R9
+R108
 !i10b 1
-R10
-R105
-R106
+R109
+R122
+R123
 !i113 1
+R12
 R13
-R14
 Efpmul_stage3
+R22
+R24
 R0
-R2
-R3
+R1
+!i122 167
 R4
-!i122 59
-R5
-Z107 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage3_struct.vhd
-Z108 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage3_struct.vhd
+Z124 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage3_struct.vhd
+Z125 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage3_struct.vhd
 l0
-R28
+R44
 V6fRLi0GLEjA2FA9MHWUj;1
 !s100 MMcBTY60X3ifGNKdiG4hd2
-R8
+R7
 32
-R29
+R108
 !i10b 1
-R10
-Z109 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage3_struct.vhd|
-Z110 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage3_struct.vhd|
+R109
+Z126 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage3_struct.vhd|
+Z127 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage3_struct.vhd|
 !i113 1
+R12
 R13
-R14
 Astruct
-R72
+R86
+R23
+R87
+R113
+R24
+R0
 R1
-R73
-R96
-R2
-R3
-R4
-!i122 59
+!i122 167
 l100
 L58 92
 V4^KVAkZNez>c[2U`<`<Y]3
 !s100 ]aXeURY[d_5zalYNhTmaR2
-R8
+R7
 32
-R29
+R108
 !i10b 1
-R10
 R109
-R110
+R126
+R127
 !i113 1
+R12
 R13
-R14
 Efpmul_stage4
+R22
+R24
 R0
-R2
-R3
+R1
+!i122 168
 R4
-!i122 60
-R5
-Z111 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage4_struct.vhd
-Z112 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage4_struct.vhd
+Z128 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage4_struct.vhd
+Z129 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage4_struct.vhd
 l0
-R28
+R44
 V57da6HDGnSeY@DX:edbL]0
 !s100 GKHN@VUYBMJfMJN3nlg]^0
-R8
+R7
 32
-R29
+R108
 !i10b 1
-R30
-Z113 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage4_struct.vhd|
-Z114 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage4_struct.vhd|
+R109
+Z130 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage4_struct.vhd|
+Z131 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/multiplier/fpmul_stage4_struct.vhd|
 !i113 1
+R12
 R13
-R14
 Astruct
-R78
+R92
+R23
+R87
+R112
+R24
+R0
 R1
-R73
-R95
-R2
-R3
-R4
-!i122 60
+!i122 168
 l96
 L51 111
 V_j7S[5<W77ejPQ?1Pakl63
 !s100 g]FJibfzXA^UBYS@>QOiM2
-R8
+R7
 32
-R29
+R108
 !i10b 1
-R30
-R113
-R114
+R109
+R130
+R131
 !i113 1
+R12
 R13
-R14
 Efpnormalize
+R22
+R23
+R24
 R0
 R1
-R2
-R3
+!i122 169
 R4
-!i122 61
-R5
-Z115 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/fpnormalize_fpnormalize.vhd
-Z116 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/fpnormalize_fpnormalize.vhd
+Z132 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/fpnormalize_fpnormalize.vhd
+Z133 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/fpnormalize_fpnormalize.vhd
 l0
-Z117 L17 1
+Z134 L17 1
 Va;a;MC5565j5@A>o9RFOX0
 !s100 BUjUAMkjQc3i8Jl5B5FoX0
-R8
+R7
 32
-R29
+R108
 !i10b 1
-R30
-Z118 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/fpnormalize_fpnormalize.vhd|
-Z119 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/fpnormalize_fpnormalize.vhd|
+R109
+Z135 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/fpnormalize_fpnormalize.vhd|
+Z136 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/fpnormalize_fpnormalize.vhd|
 !i113 1
+R12
 R13
-R14
 Afpnormalize
-R1
-R2
-R3
-R4
-R73
-!i122 61
-l35
-Z120 L34 15
-V@<eTo9ghTJ8i?WYZ]l2IS0
-!s100 I6J0=:VN^oWBdKzYW7[Mg3
-R8
-32
-R29
-!i10b 1
-R30
-R118
-R119
-!i113 1
-R13
-R14
-Efpround
+R23
+R24
 R0
 R1
-R2
-R3
+R87
+!i122 169
+l35
+Z137 L34 15
+V@<eTo9ghTJ8i?WYZ]l2IS0
+!s100 I6J0=:VN^oWBdKzYW7[Mg3
+R7
+32
+R108
+!i10b 1
+R109
+R135
+R136
+!i113 1
+R12
+R13
+Efpround
+R22
+R23
+R24
+R0
+R1
+!i122 170
 R4
-!i122 62
-R5
-Z121 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/fpround_fpround.vhd
-Z122 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/fpround_fpround.vhd
+Z138 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/fpround_fpround.vhd
+Z139 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/fpround_fpround.vhd
 l0
-R117
+R134
 VBX15nlgCVRGnc@dNLElZb3
 !s100 Ie14d[iLcC63KLGjc:z<A1
-R8
+R7
 32
-R29
+R108
 !i10b 1
-R30
-Z123 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/fpround_fpround.vhd|
-Z124 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/fpround_fpround.vhd|
+R109
+Z140 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/fpround_fpround.vhd|
+Z141 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/fpround_fpround.vhd|
 !i113 1
+R12
 R13
-R14
 Afpround
+R23
+R24
+R0
 R1
-R2
-R3
-R4
-R72
-!i122 62
+R86
+!i122 170
 l35
 L34 16
 V1aN2VDa4m9`S:m3UQ8WQe1
 !s100 ndTGM7]9X@o`5EOkU2jll3
-R8
+R7
 32
-R29
+R108
 !i10b 1
-R30
-R123
-R124
+R109
+R140
+R141
 !i113 1
+R12
 R13
-R14
 Efpselcomplement
+R22
+R23
+R24
 R0
 R1
-R2
-R3
+!i122 184
 R4
-!i122 76
-R5
-Z125 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpselcomplement_fpselcomplement.vhd
-Z126 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpselcomplement_fpselcomplement.vhd
+Z142 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpselcomplement_fpselcomplement.vhd
+Z143 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpselcomplement_fpselcomplement.vhd
 l0
-R117
+R134
 V;5R]1dklTC1]zgXbPYl`e3
 !s100 fXf36C3?IMS@HXK`C[VM:1
-R8
+R7
 32
-Z127 !s110 1636446458
+R8
 !i10b 1
-Z128 !s108 1636446458.000000
-Z129 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpselcomplement_fpselcomplement.vhd|
-Z130 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpselcomplement_fpselcomplement.vhd|
+R9
+Z144 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpselcomplement_fpselcomplement.vhd|
+Z145 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpselcomplement_fpselcomplement.vhd|
 !i113 1
+R12
 R13
-R14
 Afpselcomplement
+R23
+R24
+R0
 R1
-R2
-R3
-R4
-R67
-!i122 76
+R81
+!i122 184
 l35
-R120
+R137
 VlQ@?GaU3jhd2GQBPjPJ0Q2
 !s100 ^3Tn7JboCkF`9WOXCgfAa0
-R8
+R7
 32
-R127
+R8
 !i10b 1
-R128
-R129
-R130
+R9
+R144
+R145
 !i113 1
+R12
 R13
-R14
 Efpswap
+R22
+R24
 R0
-R2
-R3
+R1
+!i122 185
 R4
-!i122 77
-R5
-Z131 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpswap_fpswap.vhd
-Z132 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpswap_fpswap.vhd
+Z146 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpswap_fpswap.vhd
+Z147 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpswap_fpswap.vhd
 l0
-R28
+R44
 VGJC@XXL4ajOO`YP@G;b]g3
 !s100 :90b5lZ7Bl:ilSdJfTXdP2
-R8
+R7
 32
-R127
+R8
 !i10b 1
-R128
-Z133 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpswap_fpswap.vhd|
-Z134 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpswap_fpswap.vhd|
+R9
+Z148 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpswap_fpswap.vhd|
+Z149 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/adder/fpswap_fpswap.vhd|
 !i113 1
+R12
 R13
-R14
 Afpswap
-R2
-R3
-R4
-R56
-!i122 77
-l35
-R120
-Z135 Vm>SSkUhYlidlgdT;<8O]n1
-Z136 !s100 LBeN;@>3;Z8FkDOSKH6k92
-R8
-32
-R127
-!i10b 1
-R128
-R133
-R134
-!i113 1
-R13
-R14
-Epackfp
+R24
 R0
-R2
-R3
+R1
+R70
+!i122 185
+l35
+R137
+Vm>SSkUhYlidlgdT;<8O]n1
+!s100 LBeN;@>3;Z8FkDOSKH6k92
+R7
+32
+R8
+!i10b 1
+R9
+R148
+R149
+!i113 1
+R12
+R13
+Epackfp
+R22
+R24
+R0
+R1
+!i122 171
 R4
-!i122 63
-R5
-Z137 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/packfp_packfp.vhd
-Z138 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/packfp_packfp.vhd
+Z150 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/packfp_packfp.vhd
+Z151 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/packfp_packfp.vhd
 l0
-R28
+R44
 VSAP3f_<554a1hXBziN:3V0
 !s100 01>7]i`Z0N7NH9g:Ga>l=0
-R8
+R7
 32
-R29
+R45
 !i10b 1
-R30
-Z139 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/packfp_packfp.vhd|
-Z140 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/packfp_packfp.vhd|
+R109
+Z152 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/packfp_packfp.vhd|
+Z153 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/packfp_packfp.vhd|
 !i113 1
+R12
 R13
-R14
 Apackfp
-R2
-R3
-R4
-R78
-!i122 63
+R24
+R0
+R1
+R92
+!i122 171
 l34
 L33 25
 V[7ccQP1Q;1CJQl?0]gBNH0
 !s100 boEIjXMzHClblfW8W7BJS0
-R8
+R7
 32
-R29
+R45
 !i10b 1
-R30
-R139
-R140
+R109
+R152
+R153
 !i113 1
+R12
 R13
+Ereg
+R16
 R14
-Etb_mul
 R0
-R2
-R3
+R1
+!i122 187
 R4
-!i122 55
-R5
-Z141 8C:/Users/S290315/Desktop/LAB/ISAL2/tb/tb_mul.vhd
-Z142 FC:/Users/S290315/Desktop/LAB/ISAL2/tb/tb_mul.vhd
+R17
+R18
+l0
+L5 1
+V9R;KXj`O2S2Vjbh_K6Z5l0
+!s100 Q570If<C=kP3gk:k<E42L1
+R7
+32
+R19
+!i10b 1
+R9
+R20
+R21
+!i113 1
+R12
+R13
+Aarch
+R14
+R0
+R1
+R15
+!i122 187
+l29
+Z154 L17 19
+Z155 V0RDb;iAcbMVSN3o`hLYMc2
+Z156 !s100 V:O6_Xkh>n0<3Tc1F=QPR1
+R7
+32
+R19
+!i10b 1
+R9
+R20
+R21
+!i113 1
+R12
+R13
+Etb_mul
+R22
+R24
+R0
+R1
+!i122 163
+R4
+Z157 8C:/Users/S290315/Desktop/LAB/ISAL2/tb/tb_mul.vhd
+Z158 FC:/Users/S290315/Desktop/LAB/ISAL2/tb/tb_mul.vhd
 l0
 L5 1
 VLX>73^VdzJIAG1EdmObiM2
 !s100 ^Z5_CzFk^7V3RJ_k=X<SX2
-R8
+R7
 32
-R9
+R108
 !i10b 1
-R10
-Z143 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/tb/tb_mul.vhd|
-Z144 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/tb/tb_mul.vhd|
+R28
+Z159 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/tb/tb_mul.vhd|
+Z160 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/tb/tb_mul.vhd|
 !i113 1
+R12
 R13
-R14
 Aarch
-R2
-R3
-R4
+R24
+R0
+R1
 DEx4 work 6 tb_mul 0 22 LX>73^VdzJIAG1EdmObiM2
-!i122 55
+!i122 163
 l42
 L8 43
 VB2e69nYMML9UW6;9I1ABo2
 !s100 O?ALOlON^QiSkdGZSH=Fg1
-R8
+R7
 32
-R9
+R108
 !i10b 1
-R10
-R143
-R144
+R28
+R159
+R160
 !i113 1
+R12
 R13
-R14
 Eunpackfp
+R22
+R24
 R0
-R2
-R3
+R1
+!i122 172
 R4
-!i122 64
-R5
-Z145 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/unpackfp_unpackfp.vhd
-Z146 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/unpackfp_unpackfp.vhd
+Z161 8C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/unpackfp_unpackfp.vhd
+Z162 FC:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/unpackfp_unpackfp.vhd
 l0
 L15 1
 V37[Dg7h=I0ajFd?7fl2Kd2
 !s100 iXK2eKKm@g^[^1N:863BC1
-R8
+R7
 32
-R29
+R45
 !i10b 1
-R30
-Z147 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/unpackfp_unpackfp.vhd|
-Z148 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/unpackfp_unpackfp.vhd|
+R46
+Z163 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/unpackfp_unpackfp.vhd|
+Z164 !s107 C:/Users/S290315/Desktop/LAB/ISAL2/fpuvhdl/common/unpackfp_unpackfp.vhd|
 !i113 1
+R12
 R13
-R14
 Aunpackfp
-R2
-R3
-R4
-R49
-!i122 64
+R24
+R0
+R1
+R65
+!i122 172
 l37
 L33 27
 VJUFeK?hRB=<IVP7VTiXR73
 !s100 LM2:M<W34`8Dk4EdA2IlO0
-R8
+R7
 32
-R29
+R45
 !i10b 1
-R30
-R147
-R148
+R46
+R163
+R164
 !i113 1
+R12
 R13
-R14
