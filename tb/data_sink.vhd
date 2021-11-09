@@ -27,7 +27,7 @@ begin  -- beh
     --  null;
     if CLK'event and CLK = '1' then  -- rising clock edge
       --if (VIN = '1') then
-        write(line_out, conv_integer(signed(DIN)));
+        hwrite(line_out, DIN);
         writeline(res_fp, line_out);
       --end if;
     end if;
