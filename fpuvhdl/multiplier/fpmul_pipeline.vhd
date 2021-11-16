@@ -18,6 +18,9 @@ ENTITY FPmul IS
       FP_A : IN     std_logic_vector (31 DOWNTO 0);
       FP_B : IN     std_logic_vector (31 DOWNTO 0);
       clk  : IN     std_logic;
+      RST_n  : IN     std_logic;
+      VIN  : IN     std_logic;
+      VOUT : OUT    std_logic;
       FP_Z : OUT    std_logic_vector (31 DOWNTO 0)
    );
 
@@ -158,6 +161,15 @@ ARCHITECTURE pipeline OF FPmul IS
    
    end component;
 
+   component FD is
+      Port (	
+            D:	In	std_logic;
+            CK:	In	std_logic;
+            RESET:	In	std_logic;
+            ENABLE: In std_logic;	
+            Q:	Out	std_logic);
+   end component;
+
    -- Optional embedded configurations
    -- pragma synthesis_off
    FOR ALL : FPmul_stage1 USE ENTITY work.FPmul_stage1;
@@ -166,13 +178,19 @@ ARCHITECTURE pipeline OF FPmul IS
    FOR ALL : FPmul_stage4 USE ENTITY work.FPmul_stage4;
    -- pragma synthesis_on
    signal FP_A_sig, FP_B_sig: std_logic_vector(31 downto 0);
-
+   signal VOUT_sig: std_logic_vector(5 downto 0);
 BEGIN
 
    -- Instance port mappings.
 
-   reg1 : REG port map (FP_A, clk, '1', '1', FP_A_sig);
-   reg2 : REG port map (FP_B, clk, '1', '1', FP_B_sig);
+   reg1 : REG port map (FP_A, clk, RST_n, '1', FP_A_sig);
+   reg2 : REG port map (FP_B, clk, RST_n, '1', FP_B_sig);
+
+   VOUT_sig(0) <= VIN;
+   FF_GEN : FOR i in 0 to 4 GENERATE
+      FF:  FD port map (VOUT_sig(i), clk, RST_n, '1', VOUT_sig(i+1));
+   END GENERATE;
+   VOUT <= VOUT_sig(5);
 
    I1 : FPmul_stage1
       PORT MAP (
