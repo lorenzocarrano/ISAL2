@@ -38,12 +38,3 @@ configuration CFG_FD_SYNCH of FD is
 end CFG_FD_SYNCH;
 
 
-<<<<<<< HEAD
-=======
-configuration CFG_FD_ASYNCH of FD is
-	for ASYNCH
-	end for;
-end CFG_FD_ASYNCH;
-
->>>>>>> 433bdc93c274a7deb00fff036b4e5cceac8dbb0e
-

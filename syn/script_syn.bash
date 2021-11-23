@@ -1,19 +1,63 @@
 #!bin/bash
 
 #reading source files from common, adder and multpiplier directories
-read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/common/{fpnormalize_fpnormalize,fpround_fpround,packfp_packfp,unpackfp_unpackfp}.vhd
+read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/common/fpnormalize_fpnormalize.vhd
+read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/common/fpround_fpround.vhd
+read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/common/packfp_packfp.vhd
+read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/common/unpackfp_unpackfp.vhd
 
-read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/{fpadd_normalize_struct,fpadd_pipeline,fpadd_stage1_struct,fpadd_stage2_struct,fpadd_stage3_struct,fpadd_stage4_struct,fpadd_stage5_struct,fpadd_stage6_struct,fpalign_struct,fpinvert_fpinvert,fplzc_fplzc,fpselcomplement_fpselcomplement,fpswap_fpswap}.vhd
+read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fpadd_normalize_struct.vhd
+read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fpadd_pipeline.vhd
+read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fpadd_stage1_struct.vhd
+read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fpadd_stage2_struct.vhd
+read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fpadd_stage3_struct.vhd
+read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fpadd_stage4_struct.vhd
+read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fpadd_stage5_struct.vhd
+read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fpadd_stage6_struct.vhd
+read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fpalign_struct.vhd
+read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fpinvert_fpinvert.vhd
+read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fplzc_fplzc.vhd
+read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fpselcomplement_fpselcomplement.vhd
+read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fpswap_fpswap.vhd
 
-read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/multiplier/{fpmul_pipeline,fpmul_single_cycle,fpmul_stage1_struct,fpmul_stage2_struct,fpmul_stage3_struct,fpmul_stage4_struct,fd,register}.vhd
+read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/multiplier/fpmul_pipeline.vhd
+#read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/multiplier/fpmul_single_cycle.vhd
+read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/multiplier/fpmul_stage1_struct.vhd
+read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/multiplier/fpmul_stage2_struct.vhd
+read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/multiplier/fpmul_stage3_struct.vhd
+read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/multiplier/fpmul_stage4_struct.vhd
+read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/multiplier/fd.vhd
+read_file -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/multiplier/register.vhd
 ############################################
 
-#analyzing those files
-analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/common/{fpnormalize_fpnormalize,fpround_fpround,packfp_packfp,unpackfp_unpackfp}.vhd
+analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/common/fpnormalize_fpnormalize.vhd
+analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/common/fpround_fpround.vhd
+analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/common/packfp_packfp.vhd
+analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/common/unpackfp_unpackfp.vhd
 
-analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/{fpadd_normalize_struct,fpadd_pipeline,fpadd_stage1_struct,fpadd_stage2_struct,fpadd_stage3_struct,fpadd_stage4_struct,fpadd_stage5_struct,fpadd_stage6_struct,fpalign_struct,fpinvert_fpinvert,fplzc_fplzc,fpselcomplement_fpselcomplement,fpswap_fpswap}.vhd
+analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fpadd_normalize_struct.vhd
+analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fpadd_pipeline.vhd
+analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fpadd_stage1_struct.vhd
+analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fpadd_stage2_struct.vhd
+analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fpadd_stage3_struct.vhd
+analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fpadd_stage4_struct.vhd
+analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fpadd_stage5_struct.vhd
+analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fpadd_stage6_struct.vhd
+analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fpalign_struct.vhd
+analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fpinvert_fpinvert.vhd
+analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fplzc_fplzc.vhd
+analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fpselcomplement_fpselcomplement.vhd
+analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/adder/fpswap_fpswap.vhd
 
-analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/multiplier/{fpmul_pipeline,fpmul_single_cycle,fpmul_stage1_struct,fpmul_stage2_struct,fpmul_stage3_struct,fpmul_stage4_struct,fd,register}.vhd
+analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/multiplier/fpmul_pipeline.vhd
+#analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/multiplier/fpmul_single_cycle.vhd
+analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/multiplier/fpmul_stage1_struct.vhd
+analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/multiplier/fpmul_stage2_struct.vhd
+analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/multiplier/fpmul_stage3_struct.vhd
+analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/multiplier/fpmul_stage4_struct.vhd
+analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/multiplier/fd.vhd
+analyze -library WORK -format vhdl /home/isa21_2021_2022/labs/ISAL2/fpuvhdl/multiplier/register.vhd
+
 ############################################
 
 #synthesis commands:
@@ -36,4 +80,4 @@ change_names -hierarchy -rules verilog
 write_sdf ../netlist/FPmul.sdf
 write -f verilog -hierarchy -output ../netlist/FPmul.v
 write_sdc ../netlist/FPmul.sdc
-quit
+#quit

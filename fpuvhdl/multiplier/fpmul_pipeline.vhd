@@ -17,7 +17,7 @@ ENTITY FPmul IS
    PORT( 
       FP_A : IN     std_logic_vector (31 DOWNTO 0);
       FP_B : IN     std_logic_vector (31 DOWNTO 0);
-      clk  : IN     std_logic;
+      CLK  : IN     std_logic;
       RST_n  : IN     std_logic;
       VIN  : IN     std_logic;
       VOUT : OUT    std_logic;
@@ -81,7 +81,7 @@ ARCHITECTURE pipeline OF FPmul IS
    PORT (
       FP_A            : IN     std_logic_vector (31 DOWNTO 0);
       FP_B            : IN     std_logic_vector (31 DOWNTO 0);
-      clk             : IN     std_logic ;
+      CLK             : IN     std_logic ;
       A_EXP           : OUT    std_logic_vector (7 DOWNTO 0);
       A_SIG           : OUT    std_logic_vector (31 DOWNTO 0);
       B_EXP           : OUT    std_logic_vector (7 DOWNTO 0);
@@ -99,7 +99,7 @@ ARCHITECTURE pipeline OF FPmul IS
       B_EXP           : IN     std_logic_vector (7 DOWNTO 0);
       B_SIG           : IN     std_logic_vector (31 DOWNTO 0);
       SIGN_out_stage1 : IN     std_logic ;
-      clk             : IN     std_logic ;
+      CLK             : IN     std_logic ;
       isINF_stage1    : IN     std_logic ;
       isNaN_stage1    : IN     std_logic ;
       isZ_tab_stage1  : IN     std_logic ;
@@ -120,7 +120,7 @@ ARCHITECTURE pipeline OF FPmul IS
       EXP_pos_stage2  : IN     std_logic ;
       SIGN_out_stage2 : IN     std_logic ;
       SIG_in          : IN     std_logic_vector (27 DOWNTO 0);
-      clk             : IN     std_logic ;
+      CLK             : IN     std_logic ;
       isINF_stage2    : IN     std_logic ;
       isNaN_stage2    : IN     std_logic ;
       isZ_tab_stage2  : IN     std_logic ;
@@ -141,7 +141,7 @@ ARCHITECTURE pipeline OF FPmul IS
       EXP_pos       : IN     std_logic ;
       SIGN_out      : IN     std_logic ;
       SIG_out_round : IN     std_logic_vector (27 DOWNTO 0);
-      clk           : IN     std_logic ;
+      CLK           : IN     std_logic ;
       isINF_tab     : IN     std_logic ;
       isNaN         : IN     std_logic ;
       isZ_tab       : IN     std_logic ;
@@ -183,12 +183,12 @@ BEGIN
 
    -- Instance port mappings.
 
-   reg1 : REG port map (FP_A, clk, RST_n, '1', FP_A_sig);
-   reg2 : REG port map (FP_B, clk, RST_n, '1', FP_B_sig);
+   reg1 : REG port map (FP_A, CLK, RST_n, '1', FP_A_sig);
+   reg2 : REG port map (FP_B, CLK, RST_n, '1', FP_B_sig);
 
    VOUT_sig(0) <= VIN;
    FF_GEN : FOR i in 0 to 4 GENERATE
-      FF:  FD port map (VOUT_sig(i), clk, RST_n, '1', VOUT_sig(i+1));
+      FF:  FD port map (VOUT_sig(i), CLK, RST_n, '1', VOUT_sig(i+1));
    END GENERATE;
    VOUT <= VOUT_sig(5);
 
@@ -196,7 +196,7 @@ BEGIN
       PORT MAP (
          FP_A            => FP_A_sig,
          FP_B            => FP_B_sig,
-         clk             => clk,
+         clk             => CLK,
          A_EXP           => A_EXP,
          A_SIG           => A_SIG,
          B_EXP           => B_EXP,
@@ -213,7 +213,7 @@ BEGIN
          B_EXP           => B_EXP,
          B_SIG           => B_SIG,
          SIGN_out_stage1 => SIGN_out_stage1,
-         clk             => clk,
+         clk             => CLK,
          isINF_stage1    => isINF_stage1,
          isNaN_stage1    => isNaN_stage1,
          isZ_tab_stage1  => isZ_tab_stage1,
@@ -233,7 +233,7 @@ BEGIN
          EXP_pos_stage2  => EXP_pos_stage2,
          SIGN_out_stage2 => SIGN_out_stage2,
          SIG_in          => SIG_in,
-         clk             => clk,
+         clk             => CLK,
          isINF_stage2    => isINF_stage2,
          isNaN_stage2    => isNaN_stage2,
          isZ_tab_stage2  => isZ_tab_stage2,
@@ -253,7 +253,7 @@ BEGIN
          EXP_pos       => EXP_pos,
          SIGN_out      => SIGN_out,
          SIG_out_round => SIG_out_round,
-         clk           => clk,
+         clk           => CLK,
          isINF_tab     => isINF_tab,
          isNaN         => isNaN,
          isZ_tab       => isZ_tab,
